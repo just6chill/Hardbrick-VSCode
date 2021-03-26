@@ -1,0 +1,25 @@
+{
+    "name": "hardbrick-lang",
+    "displayName": "HARDBRICK-Lang",
+    "description": "VS Code support for the HARDBRICK programming language",
+    "version": "1.0",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hb",
+            "aliases": ["Hardbrick", "hb"],
+            "extensions": [".hb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hb",
+            "scopeName": "main.hb",
+            "path": "./syntaxes/hb.tmLanguage.json"
+        }]
+    }
+}
