@@ -15,6 +15,6 @@ This is a Plugin for VS Code to support the Hardbrick programming language
 - none
 
 Download from the marketplace 
-(https://marketplace.visualstudio.com/items?itemName=just6chill.hardbrick-lang)[here]
+(here)[https://marketplace.visualstudio.com/items?itemName=just6chill.hardbrick-lang]
 
 
